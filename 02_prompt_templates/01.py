@@ -12,6 +12,18 @@ model = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash-001", google_api_key=api_key
     )
 
+# template = "Write a {tone} email to {company} expressing interest in the {position} position, mentioning {skill} as a key strength. Keep it to 4 lines max"
+
+# prompt_template = ChatPromptTemplate.from_template(template)
+
+# prompt =  prompt_template.invoke({
+#     "tone": "energetic", 
+#     "company": "samsung", 
+#     "position": "AI Engineer", 
+#     "skill": "AI"
+# })
+
+# Example 2: Prompt with System and Human Messages (Using Tuples)
 messages = [
     ("system", "You are a comedian who tells jokes about {topic}."),
     ("human", "Tell me {joke_count} jokes."),
