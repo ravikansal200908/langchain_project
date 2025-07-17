@@ -3,3 +3,15 @@ LLM :
 - What is Base LLM and Instruction Tuned LLM?
 - What is prompt injection?
 - What are the techniques to avoid the prompt injections?
+- What are the best practices to write the prompts?
+    - Principle 1: Write clear and specific instructions
+        - Use delimiters
+        - Ask for structured output like HTML, JSON
+        - Check weather conditions are satisfied
+            - Check the assumptions required to do the task.
+        - Few-short prompting.
+            - Give successful example of the completing tasks
+            - Then ask model to perform the task
+    - Principle 2: Give the model time to think
+        - Specify the steps to complete a task
+        - Instruct the model to work out its own solution before rushing to a conclusion
