@@ -20,3 +20,9 @@ LLM :
         - Make statements that sound plausible but are not true.
     - Reducing hallucinations
         - First find relevant information, then answer the question based on the relevant information.
+
+- Iterative Prompt Development
+    - Be clear and specific
+    - Analyze why the result does not give desire output
+    - Refine the idea and the prompt
+    - Repeat
