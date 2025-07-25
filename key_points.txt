@@ -36,3 +36,10 @@ LLM :
 - Capabilities:
     - Summarizing Text:
     - Inferring:
+        - Transforming : 
+        - Translation
+        - Universal Translator
+        - Tone Transformation
+        - Spellcheck/Grammar check
+    - Expanding: 
+    - Video and Code Example: 
