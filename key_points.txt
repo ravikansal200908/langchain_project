@@ -32,3 +32,7 @@ LLM :
         - Analyze where the result does not give what you want
         - Clarify instruction, give more time to think
         - Refine prompts with a batch of examples
+
+- Capabilities:
+    - Summarizing Text:
+    - Inferring:
