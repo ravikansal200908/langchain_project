@@ -1,0 +1,109 @@
+## Latest Version of Python
+As of October 2024, the latest stable version of Python is:
+- Python 3.13
+
+Python 3.14 is under development and expected to be released in late 2025.
+
+## Four Older Versions of Python and Their Features
+
+### 1. Python 3.9
+Released: October 2020
+Key Features:
+- New string methods: removesuffix(), removeprefix()
+- Dictionary merge operators: | and |=
+- Type hinting enhancements (PEP 585, PEP 613)
+
+### 2. Python 3.8
+Released: October 2019
+Key Features:
+- Walrus operator := for assignment expressions
+- Positional-only parameters (/)
+- Improved debugging with f-strings (f"{x=}")
+
+### 3. Python 3.7
+Released: June 2018
+Key Features:
+- Data classes (dataclass decorator)
+- __future__ annotations (from __future__ import annotations)
+- Built-in breakpoint() function
+
+### 4. Python 3.6
+Released: December 2016
+Key Features:
+- Formatted string literals (f-strings)
+- Underscores in numeric literals (e.g., 1_000_000)
+- Secret module (secrets) for generating secure tokens
+
+## Python Keywords (as of Python 3.13)
+
+False, None, True,
+and, as, assert,
+async, await,
+break,
+class, continue,
+def, del,
+elif, else, except,
+finally, for, from,
+global,
+if, import,
+in, is,
+lambda,
+nonlocal, not,
+or,
+pass,
+raise, return,
+try,
+while, with,
+yield
+
+Total: 36 standard keywords (may vary slightly based on version)
+
+## Built-in Functions in Python (Common ones)
+
+abs(), all(), any(),
+bin(), bool(), bytearray(), bytes(),
+callable(), chr(), classmethod(), compile(), complex(),
+delattr(), dict(), dir(), divmod(),
+enumerate(), eval(), exec(),
+filter(), float(), format(), frozenset(),
+getattr(), globals(),
+hasattr(), hash(), help(), hex(),
+id(), input(), int(), isinstance(), issubclass(), iter(),
+len(), list(), locals(),
+map(), max(), memoryview(), min(),
+next(),
+object(), oct(), open(), ord(),
+pow(), print(), property(),
+range(), repr(), reversed(), round(),
+set(), setattr(), slice(), sorted(), staticmethod(), str(), sum(), super(),
+tuple(), type(),
+vars(),
+zip()
+
+(There are over 70+ built-in functions in total.)
+
+## Advantages of Python
+
+1. Easy to learn and read (simple syntax)
+2. Large community and ecosystem
+3. Cross-platform compatibility
+4. Extensive libraries for AI, ML, web dev, automation, etc.
+5. Supports multiple programming paradigms (OOP, functional, procedural)
+6. Integration with other languages (C/C++, Java via Jython)
+7. Great for rapid prototyping
+
+## Disadvantages of Python
+
+1. Slower execution compared to compiled languages like C or Java
+2. Not ideal for high-performance computing or mobile apps
+3. Global Interpreter Lock (GIL) limits multi-threading performance
+4. Dynamic typing can lead to runtime errors
+5. High memory consumption compared to lower-level languages
+
+## Notes
+
+Python 2 vs Python 3:
+- Python 2 reached End Of Life (EOL) on January 1, 2020.
+- All new development should use Python 3.
+
+Official website: https://www.python.org/ 
